@@ -1,6 +1,6 @@
 # rdfm - MDN Notes
 
-Notes from reading the [MDN Web Docs](https://developer.mozilla.org/en-US/)
+Notes taken from reading the [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
 ----
 
