@@ -1,0 +1,129 @@
+Common beginner's mistakes
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Howto#Common_beginner's_mistakes
+
+Basic definitions
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Howto#Basic_definitions
+What is JavaScript?
+What is a variable?
+What are strings?
+What is an array?
+What is a loop?
+What is a function?
+What is an event?
+What is an object?
+What is JSON?
+What is a web API?
+What is the DOM?
+
+# General
+How do you add JavaScript to your page?
+How do you add comments to JavaScript code?
+
+# Variables
+How do you declare a variable?
+How do you initialize a variable with a value?
+How do you update a variable's value? (also see Assignment operators)
+What data types can values have in JavaScript?
+What does 'loosely typed' mean?
+
+# Math
+What types of number do you have to deal with in web development?
+How do you do basic math in JavaScript?
+What is operator precedence, and how is it handled in JavaScript?
+How do you increment and decrement values in JavaScript?
+How do you compare values in JavaScript? (e.g. to see which one is bigger, or to see if one value is equal to another).
+
+# Strings
+How do you create a string in JavaScript?
+Do you have to use single quotes or double quotes?
+How do you escape characters in strings?
+How do you join strings together?
+Can you join strings and numbers together?
+How do you find the length of a string?
+How you find what character is at a certain position in a string?
+How do you find and extract a specific substring from a string?
+How do you change the case of a string?
+How do you replace one specific substring with another?
+
+# Arrays
+How do you create an array?
+How do you access and modify the items in an array? (this includes multidimensional arrays)
+How do you find the length of an array?
+How you add and remove array items?
+How do you split a string into array items, or join array items into a string?
+
+# Debuggin_JavaScript
+What are the basic types of error?
+What are browser developer tools, and how do you access them?
+How do you log a value to the JavaScript console?
+How do you use breakpoints, and other JavaScript debugging features?
+
+NOTE: For more information on JavaScript debugging, see 
+[Handling common JavaScript problems;] 
+also see 
+[Other common errors] 
+for a description of common errors.
+
+# Making decisions in code
+How do you execute different blocks of code, depending on a variable's value or other condition?
+How do you use if ...else statements?
+How do nest one decision block inside another?
+How do you use AND, OR, and NOT operators in JavaScript?
+How do you conveniently handle a large number of choices for one condition?
+How do you use a ternary operator to make a quick choice between two options based on a true or false test?
+
+# Looping/iteration
+How do you run the same bit of code over and over again?
+How do you exit a loop before the end if a certain condition is met?
+How do you skip to the next iteration of a loop if a certain condition is met?
+How do you use while and do ... while loops?
+
+How to iterate over the elements in an array
+How to iterate over the elements in a multidimensional array
+How to iterate over the members in an object
+How to iterate over the members of an object nested inside an array
+
+# Functions
+How do you find functions in the browser?
+What is the difference between a function and a method?
+How do you create your own functions?
+How do you run (call, or invoke) a function?
+What is an anonymous function?
+How do you specify parameters (or arguments) when invoking a function?
+What is function scope?
+What are return values, and how do you use them?
+
+# Objects
+How do you create an object?
+What is dot notation?
+What is bracket notation?
+How do you get and set the methods and properties of an object?
+What is this, in the context of an object?
+What is object-oriented programming?
+What are constructors and instances, and how do you create them?
+What different ways are there to create objects in JavaScript?
+
+# JSON
+How do you structure JSON data, and read it from JavaScript?
+How can you load a JSON file into a page?
+How do you convert a JSON object to a text string, and back again?
+
+# Events
+What are event handlers and how do you use them?
+What are inline event handlers?
+What does the addEventListener() function do, and how do you use it?
+Which mechanism should I use to add event code to my web pages?
+What are event objects, and how do you use them?
+How do you prevent default event behaviour?
+How do events fire on nested elements? (event propagation, also related — event bubbling and capturing)
+What is event delegation, and how does it work?
+
+# Object-oriented JavaScript
+What are object prototypes?
+What is the constructor property, and how can you use it?
+How do you add methods to the constructor?
+How do you create a new constructor that inherits its members from a parent constructor?
+When should you use inheritance in JavaScript?
+
+# Web APIs
+How do you manipulate the DOM (e.g. adding or removing elements) using JavaScript?

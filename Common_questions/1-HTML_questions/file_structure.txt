@@ -1,0 +1,111 @@
+# 01-Basic_structure
+1-Basic_HTML_document.md
+see[How to create a basic HTML document]()
+
+2-Webpage_logical_sections.md
+see[How to divide a webpage into logical sections]()
+
+3-Headings_and_paragraphs.md
+see[How to set up a proper structure of headings and paragraphs]()
+
+# 02-Basic_text-level_semantics
+1-List_of_items.md
+see[How to create a list of items with HTML]()
+
+2-Emphasize_content.md
+see[How to stress or emphasize content]()
+
+3-Important_text.md
+see[How to indicate that text is important]()
+
+4-Display_code.md
+see[How to display computer code with HTML]()
+
+5-Annotate_images.md
+see[How to annotate images and graphics]()
+
+6-Abbreviations.md
+see[How to mark abbreviations and make them understandable]()
+
+7-Quotations_and_citations.md
+see[How to add quotations and citations to web pages]()
+
+8-Define_terms.md
+see[How to define terms with HTML]()
+
+# 03-Hyperlinks
+1-Hyperlink.md
+see[How to create a hyperlink]()
+
+2-Table_of_contents.md
+see[How to create a table of contents with HTML]()
+
+# 04-Images_and_multimedia
+1-Images.md
+see[How to add images to a webpage]()
+
+2-Video.md
+see[How to add video content to a webpage]()
+
+# 05-Scripting_and_styling
+1-Use_CSS.md
+see[How to use CSS within a webpage]()
+
+2-Use_JavaScript.md
+see[How to use JavaScript within a webpage]()
+
+# 06-Embedded_content
+1-Embed_content.md
+see[How to embed a webpage within another webpage]()
+
+2-Add_Flash.md
+see[How to add Flash content within a webpage]()
+
+# 07-Forms
+1-Simple_Web_form.md
+see[How to create a simple Web form]()
+
+2-Structure_Web_form.md
+see[How to structure a Web form]()
+
+# 08-Tabular_information
+1-Data_table.md
+see[How to create a data table]()
+
+2-HTML_tables_accessible.md
+see[How to make HTML tables accessible]()
+
+# 09-Data_representation
+1-Numeric_and_code_values.md
+see[How to represent numeric and code values with HTML — see Superscript and Subscript, and Representing computer code.]()
+
+2-Data_attributes.md
+see[How to use data attributes]()
+
+# 10-Advanced_text_and_semantics
+1-HTML_line_breaking.md
+see[How to take control of HTML line breaking]()
+
+2-Mark_changes.md
+see[How to mark changes (added and removed text) — see the <ins> and <del> elements.]()
+
+# 11-Advanced_images_and_multimedia
+1-Responsive_image.md
+see[How to add a responsive image to a webpage]()
+
+2-Vector_image.md
+see[How to add vector image to a webpage]()
+
+3-Hit_map_top_of_image.md
+see[How to add a hit map on top of an image]()
+
+# 12-Internationalization
+1-Add_multiple_languages.html
+see[How to add multiple languages into a single webpage]()
+
+2-Display_time_and_date.md
+see[How to display time and date with HTML]()
+
+# 13-Performance
+1-Fast-loading_HTML.md
+see[How to author fast-loading HTML pages]()
