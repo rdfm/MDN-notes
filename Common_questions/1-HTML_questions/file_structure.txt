@@ -1,12 +1,11 @@
 # 01-Basic_structure
 1-Basic_HTML_document.md
-see[How to create a basic HTML document]()
+see [How to create a basic HTML document](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#Anatomy_of_an_HTML_document)
 
-2-Webpage_logical_sections.md
-see[How to divide a webpage into logical sections]()
+see [How to divide a webpage into logical sections](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Divide_a_webpage_into_logical_sections)
 
 3-Headings_and_paragraphs.md
-see[How to set up a proper structure of headings and paragraphs]()
+see [How to set up a proper structure of headings and paragraphs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals#The_basics_headings_and_paragraphs)
 
 # 02-Basic_text-level_semantics
 1-List_of_items.md
