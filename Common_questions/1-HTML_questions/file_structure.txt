@@ -9,28 +9,28 @@ see [How to set up a proper structure of headings and paragraphs](https://develo
 
 # 02-Basic_text-level_semantics
 1-List_of_items.md
-see[How to create a list of items with HTML]()
+see [How to create a list of items with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals#Lists)
 
 2-Emphasize_content.md
-see[How to stress or emphasize content]()
+see [How to stress or emphasize content](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals#Emphasis_and_importance)
 
 3-Important_text.md
-see[How to indicate that text is important]()
+see [How to indicate that text is important](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals#Emphasis_and_importance)
 
 4-Display_code.md
-see[How to display computer code with HTML]()
+see [How to display computer code with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#Representing_computer_code)
 
 5-Annotate_images.md
-see[How to annotate images and graphics]()
+see [How to annotate images and graphics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML#Annotating_images_with_figures_and_figure_captions)
 
 6-Abbreviations.md
-see[How to mark abbreviations and make them understandable]()
+see [How to mark abbreviations and make them understandable](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#Abbreviations)
 
 7-Quotations_and_citations.md
-see[How to add quotations and citations to web pages]()
+see [How to add quotations and citations to web pages](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#Quotations)
 
 8-Define_terms.md
-see[How to define terms with HTML]()
+see [How to define terms with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Define_terms_with_HTML)
 
 # 03-Hyperlinks
 1-Hyperlink.md
