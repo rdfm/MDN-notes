@@ -55,10 +55,10 @@ see [How to use JavaScript within a webpage](https://developer.mozilla.org/en-US
 
 # 06-Embedded_content
 1-Embed_content.md
-see[How to embed a webpage within another webpage]()
+see [How to embed a webpage within another webpage](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies)
 
 2-Add_Flash.md
-see[How to add Flash content within a webpage]()
+see [How to add Flash content within a webpage](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies#The_%3Cembed%3E_and_%3Cobject%3E_elements)
 
 # 07-Forms
 1-Simple_Web_form.md
