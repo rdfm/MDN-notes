@@ -29,7 +29,7 @@ EXAMPLE:
 - both appear when image is gone
 - should NOT say the same thing
 
-**TEST** : Turn off images on browser
+**TESTING (Image alt text + captions)** : Turn off images on browser
 
 **Figure** = independent unit of content (does not have to be an image)
 

@@ -2,6 +2,8 @@
 
 see [How to create a basic HTML document](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#Anatomy_of_an_HTML_document)
 
+**HTML** = Hypertext Markup Language
+
 ```html
 <!DOCTYPE html>
 <html>
