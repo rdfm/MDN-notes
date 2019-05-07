@@ -48,10 +48,10 @@ see [How to add video content to a webpage](https://developer.mozilla.org/en-US/
 
 # 05-Scripting_and_styling
 1-Use_CSS.md
-see[How to use CSS within a webpage]()
+see [How to use CSS within a webpage](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works#How_to_apply_your_CSS_to_your_HTML)
 
 2-Use_JavaScript.md
-see[How to use JavaScript within a webpage]()
+see [How to use JavaScript within a webpage](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_JavaScript_within_a_webpage)
 
 # 06-Embedded_content
 1-Embed_content.md
