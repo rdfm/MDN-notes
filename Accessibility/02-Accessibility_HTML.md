@@ -232,7 +232,7 @@ EXAMPLE (Basic Data Table):
 </table>
 ```
 
-**[EXAMPLE (CODE)](https://github.com/mdn/learning-area/blob/master/css/styling-boxes/styling-tables/punk-bands-complete.html)
+**[EXAMPLE (CODE)](https://github.com/mdn/learning-area/blob/master/css/styling-boxes/styling-tables/punk-bands-complete.html)**
 
 [MDN: HTML table advanced features and accessibility](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced)
 
