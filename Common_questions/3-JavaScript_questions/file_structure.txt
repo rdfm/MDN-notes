@@ -102,16 +102,23 @@ see [How you add and remove array items?]()
 see [How do you split a string into array items, or join array items into a string?]()
 
 # FOLDER: 06-Debugging_JavaScript
+01-Types_of_errors.md
 see [What are the basic types of error?]()
+
+02-Browser_developer_tools.md
 see [What are browser developer tools, and how do you access them?]()
+
+03-Log_to_console.md
 see [How do you log a value to the JavaScript console?]()
+
+04-Use breakpoints_and_other.md
 see [How do you use breakpoints, and other JavaScript debugging features?]()
 
-NOTE: For more information on JavaScript debugging, see 
-[Handling common JavaScript problems;] 
-also see 
-[Other common errors] 
-for a description of common errors.
+05-Common_JS_problems.md
+see [Handling common JavaScript problems] 
+
+06-Common_errors.md
+see [Other common errors] 
 
 # FOLDER: 07-Making_decisions_code
 see [How do you execute different blocks of code, depending on a variable's value or other condition?]()
