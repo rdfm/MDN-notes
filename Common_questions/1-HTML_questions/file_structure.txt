@@ -70,24 +70,27 @@ see [How to structure a Web form](https://developer.mozilla.org/en-US/docs/Learn
 
 # 08-Tabular_information
 1-Data_table.md
-see[How to create a data table]()
+see [How to create a data table](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics)
 
 2-HTML_tables_accessible.md
-see[How to make HTML tables accessible]()
+see [How to make HTML tables accessible](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced)
 
 # 09-Data_representation
-1-Numeric_and_code_values.md
-see[How to represent numeric and code values with HTML — see Superscript and Subscript, and Representing computer code.]()
+1-Numeric_and_computer_code.md
+see [Superscript and Subscript](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#Superscript_and_subscript)
+see [Representing computer code](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#Representing_computer_code)
 
 2-Data_attributes.md
-see[How to use data attributes]()
+see [How to use data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
 
 # 10-Advanced_text_and_semantics
 1-HTML_line_breaking.md
-see[How to take control of HTML line breaking]()
+see [How to take control of HTML line breaking](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br)
 
 2-Mark_changes.md
-see[How to mark changes (added and removed text) — see the <ins> and <del> elements.]()
+see [&lt;ins&gt; element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins)
+see [&lt;del&gt;: The Deleted Text element
+](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del)
 
 # 11-Advanced_images_and_multimedia
 1-Responsive_image.md
