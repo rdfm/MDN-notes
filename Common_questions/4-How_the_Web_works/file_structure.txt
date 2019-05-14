@@ -1,19 +1,25 @@
 # How the Web works
 
-How does the Internet work?
-- The Internet is the backbone of the Web, the technical infrastructure that makes the Web possible. At its most basic, the Internet is a large network of computers which communicate all together. This article discusses how it works, at a basic level.
+1-Internet-works.md
+see [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
+> The Internet is the backbone of the Web, the technical infrastructure that makes the Web possible. At its most basic, the Internet is a large network of computers which communicate all together. This article discusses how it works, at a basic level.
 
-What is the difference between webpage, website, web server, and search engine?Section
-- In this article we describe various web-related concepts: webpages, websites, web servers, and search engines. These terms are often confused by newcomers to the Web, or are incorrectly used. Let's learn what they each mean!
+2-Web_page-site-server.md
+see [What is the difference between webpage, website, web server, and search engine?]()
+> In this article we describe various web-related concepts: webpages, websites, web servers, and search engines. These terms are often confused by newcomers to the Web, or are incorrectly used. Let's learn what they each mean!
 
-What is a URL?
-- With Hypertext and HTTP, URL is one of the key concepts of the Web. It is the mechanism used by browsers to retrieve any published resource on the web.
+3-URL.md
+see [What is a URL?]()
+> With Hypertext and HTTP, URL is one of the key concepts of the Web. It is the mechanism used by browsers to retrieve any published resource on the web.
 
-What is a domain name?
-- Domain names are a key part of the Internet infrastructure. They provide a human-readable address for any web server available on the Internet.
+4-Domain_name.md
+see [What is a domain name?]()
+> Domain names are a key part of the Internet infrastructure. They provide a human-readable address for any web server available on the Internet.
 
-What is a web server?
-- The term "Web server" can refer to the hardware or software that serves web sites to clients across the Web — or both of them working together. In this article we go over how web servers work, and why they're important.
+5-Web_server.md
+see [What is a web server?]()
+> The term "Web server" can refer to the hardware or software that serves web sites to clients across the Web — or both of them working together. In this article we go over how web servers work, and why they're important.
 
-What are hyperlinks?
-- In this article, we'll go over what hyperlinks are and why they matter.
+6-Hyperlinks.md
+see [What are hyperlinks?]()
+> In this article, we'll go over what hyperlinks are and why they matter.
