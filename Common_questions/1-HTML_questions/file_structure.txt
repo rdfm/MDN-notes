@@ -93,7 +93,7 @@ see [&lt;del&gt;: The Deleted Text element
 ](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del)
 
 # 11-Advanced_images_and_multimedia
-1-Responsive_image.md
+1-Responsive_images.md
 see[How to add a responsive image to a webpage]()
 
 2-Vector_image.md
