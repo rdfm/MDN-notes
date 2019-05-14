@@ -1,0 +1,16 @@
+# Design and accessibility
+
+How do I start to design my website?
+- This article covers the all-important first step of every project: define what you want to accomplish with it.
+
+What do common web layouts contain?
+- When designing pages for your website, it's good to have an idea of the most common layouts. This article runs thorugh some typical web layouts, looking at the parts that make up each one.
+
+What is accessibility?
+- This article introduces the basic concepts behind web accessibility.
+
+How can we design for all types of users?
+- This article provides basic techniques to help you design websites for any kind of user quick accessibility wins, and other such things.
+
+What HTML features promote accessibility?
+- This article describes specific features of HTML that can be used to make a web page more accessible to people with different disabilities.
