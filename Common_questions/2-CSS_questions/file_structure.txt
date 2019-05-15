@@ -4,31 +4,31 @@
 see [How to apply CSS to HTML](https://developer.mozilla.org/en-US/Learn/CSS/Introduction_to_CSS/How_CSS_works#How_to_apply_your_CSS_to_your_HTML)
 
 02-Whitespace_in_CSS.md
-see [How to use whitespace in CSS]()
+see [How to use whitespace in CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Syntax#White_space)
 
 03-CSS_comments.md
-see [How to write comments in CSS]()
+see [How to write comments in CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Syntax#Comments)
 
-04-Select_element_via-name_class_ID.md
-see [How to select elements via element name, class or ID]()
+04-Simple_selectors.md
+see [How to select elements via element name, class or ID](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Simple_selectors)
 
-05-Select_element_via-attribute_content.md
-see [How to select elements via attribute name and content]()
+05-Attribute_selectors.md
+see [How to select elements via attribute name and content](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Attribute_selectors)
 
 06-Pseudo-classes.md
-see [How to use pseudo-classes]()
+see [How to use pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Pseudo-classes_and_pseudo-elements#Pseudo-classes)
 
 07-Pseudo-elements.md
-see [How to use pseudo-elements]()
+see [How to use pseudo-elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Pseudo-classes_and_pseudo-elements#Pseudo-elements)
 
-08-Multi-selectors_same-rule.md
-see [How to apply multiple selectors to the same rule]()
+08-Combinators_and_multiple-selectors.md
+see [How to apply multiple selectors to the same rule](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors)
 
 09-CSS_colors.md
-see [How to specify colors in CSS]()
+see [How to specify colors in CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units#Colors)
 
 10-CSS_debug_in_browser.md
-see [How to debug CSS in the browser]()
+see [How to debug CSS in the browser](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Debugging_CSS#Inspecting_the_DOM_and_CSS)
 
 
 # 02-CSS_and_text
