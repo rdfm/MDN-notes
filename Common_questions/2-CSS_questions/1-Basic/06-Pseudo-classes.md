@@ -6,9 +6,9 @@ see [How to use pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/C
 - preceded by a colon (:)
 - specify to style selected element, ONLY in a certain state
 - **EXAMPLES**:
-  - you might want to style a link element only when it is being hovered over by the mouse pointer
-  - a checkbox when it is disabled or checked
-  - an element that is the first child of its parent in the DOM tree.
+  - Style a link element only when it is being hovered over by the mouse pointer
+  - Style a checkbox when it is disabled or checked
+  - Style an element that is the first child of its parent in the DOM tree
 
 ```
 :active
