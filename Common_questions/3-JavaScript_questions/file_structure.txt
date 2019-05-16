@@ -17,26 +17,27 @@ see [Basic definitions](https://developer.mozilla.org/en-US/docs/Learn/JavaScrip
 
 # FOLDER: 01-General
 1-Add_JS_to_page.md
-see [How do you add JavaScript to your page?]()
+see [How do you add JavaScript to your page?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#How_do_you_add_JavaScript_to_your_page)
 
 2-Add_JS_comments.md
-see [How do you add comments to JavaScript code?]()
+see [How do you add comments to JavaScript code?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#Comments)
 
 # 02-Variables
 1-Declare_variable.md
-see [How do you declare a variable?]()
+see [How do you declare a variable?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables#Declaring_a_variable)
 
 2-Initialize_variable_value.md
-see [How do you initialize a variable with a value?]()
+see [How do you initialize a variable with a value?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables#Initializing_a_variable)
 
 3-Update_variable_value.md
-see [How do you update a variable's value? (also see Assignment operators)]()
+see [How do you update a variable's value? ](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables#Updating_a_variable)
+also see [Assignment operators](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math#Assignment_operators)
 
 4-Data_types_JS.md
-see [What data types can values have in JavaScript?]()
+see [What data types can values have in JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables#Variable_types)
 
-5-Loosely_typed.md
-see [What does 'loosely typed' mean?]()
+5-Dynamic_typing.md
+see [What does 'loosely typed' mean?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables#Dynamic_typing)
 
 # FOLDER: 03-Math
 1-Number_types.md
