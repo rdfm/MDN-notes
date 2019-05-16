@@ -23,9 +23,9 @@ see [Express/Node introduction](https://developer.mozilla.org/en-US/docs/Learn/S
 
 1: TERMINAL (Create folder)
 
-```vim
-mkdir test-node
-cd test-node
+```
+$ mkdir test-node
+$ cd test-node
 ```
 
 2: CREATE FILE (hello.js):
@@ -50,33 +50,230 @@ console.log('Server running at http://127.0.0.1:8000/');
 
 3: TERMINAL (Run command)
 
-```vim
-node "hello.js"
 ```
+$ node "hello.js"
+```
+
+4: BROWSER (Go to: http://localhost:8000)
 
 ## Web Frameworks
 
+- Other common web-development tasks are **NOT** directly supported by Node
+- Use a web framework to: 
+  - add specific handling for different HTTP verbs (e.g. GET, POST, DELETE, etc.)
+  - separately handle requests at different URL paths ("routes")
+  - serve static files
+  - use templates to dynamically create the response
+
 ## Introducing Express
+
+*Express* = the most popular *Node* web framework
+
+[List of other Node web frameworks](https://expressjs.com/en/resources/frameworks.html)
+
+- Write handlers for requests with different HTTP verbs at different URL paths (routes).
+- Integrate with "view" rendering engines in order to generate responses by inserting data into templates.
+- Set common web application settings like the port to use for connecting, and the location of templates that are used for rendering the response.
+- Add additional request processing "middleware" at any point within the request handling pipeline.
+
+[Express Middleware Packages](https://expressjs.com/en/resources/middleware.html)
 
 ## Where did Node and Express come from?
 
+**Node**:
+- 2009: Initially released for Linux only.
+- 2010: NPM package manager released
+- 2012: Native Windows support
+- Current LTS release: Node v10.13.0
+- Latest release: Node 11.2.0
+
+**Express**:
+- 2010 (November): Initially released
+- Current version: 6.8.0
+
 ## How popular are Node and Express?
+
+[Hot Frameworks](http://hotframeworks.com/)
 
 ## Is Express opinionated?
 
+> Web frameworks often refer to themselves as "opinionated" or "unopinionated".
+
+- opions about the "right way" to handle any particular task
+- Express is unopinionated.
+- can insert almost any compatible middleware into the request handling chain, in almost any order
+- can structure the app in one file or multiple files, and using any directory structure
+
 ## What does Express code look like?
+
+**Traditional data-driven website**:
+
+- Web app waits for HTTP requests from web browser (or other client)
+- When a request received
+  - app works out what action is needed based on the URL pattern and/or associated info contained in POST / GET data
+- Depending on requirements of request, may read or write info from a database or perform other tasks required
+- App will return a response to the web browser
+  - dynamically creating an HTML page for the browser to display by inserting the retrieved data into placeholders in an HTML template
+
+**Express provides**:
+
+- Methods to specify what function is called for a particular HTTP verb (GET, POST, SET, etc.) and URL pattern ("Route")
+- Methods to specify 
+  - what template ("view") engine is used
+  - where template files are located
+  - what template to use to render a response
+- can use Express middleware to add support for cookies, sessions, and users, getting POST/GET parameters, etc.
 
 ### Helloworld Express
 
+[Express Hello World Example](https://expressjs.com/en/starter/hello-world.html)
+
+1: TERMINAL (Create folder)
+
+```
+$ mkdir express_hello_world
+$ cd express_hello_world
+```
+
+2: CREATE FILE (app.js)
+
+```javascript
+var express = require('express');
+var app = express();
+
+app.get('/', function(req, res) {
+  res.send('Hello World!');
+});
+
+app.listen(3000, function() {
+  console.log('Example app listening on port 3000!');
+});
+```
+
+OR
+
+```javascript
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => res.send('Hello World!'))
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+```
+
+3: TERMINAL (Run command)
+
+```
+$ npm init
+$ npm install express --save
+$ node app.js
+```
+
+4: BROWSER (Go to: http://localhost:3000)
+
 ### Importing and creating modules
+
+- Import code using Node's require() function
+- Express itself is a module
+
+```javascript
+var express = require('express');
+var app = express();
+```
+
+**TIP**: Create your own modules, because this allows you to organise your code into managable parts — a monolithic single-file application is hard to understand and maintain. Using modules also helps you manage your namespace, because only the variables you explicitly export are imported when you use a module.
+
+**EXPORT**: square.js module
+
+```javascript
+exports.area = function(width) { return width * width; };
+exports.perimeter = function(width) { return 4 * width; };
+```
+
+**IMPORT**: square.js into app.js using require()
+
+```javascript
+var square = require('./square'); // Here we require() the name of the file without the (optional) .js file extension
+console.log('The area of a square with a width of 4 is ' + square.area(4));
+```
+
+*NOTE*: If you want to export a complete object in one assignment instead of building it one property at a time, assign it to module.exports as shown below (you can also do this to make the root of the exports object a constructor or other function):
+
+```javascript
+module.exports = {
+  area: function(width) {
+    return width * width;
+  },
+       
+  perimeter: function(width) {
+    return 4 * width;
+  }
+};
+```
+
+[Modules (Node API docs)](https://nodejs.org/api/modules.html#modules_modules)
 
 ### Using asynchronous APIs
 
+- **synchronous API** is one in which each operation must complete before the next operation can start.
+- **asynchronous API** is one in which the API will start an operation and immediately return (before the operation is complete). Once the operation finishes, the API will use some mechanism to perform additional operations.
+
+[ARTICLE: Callback Hell](http://callbackhell.com/)
+
+[async](https://www.npmjs.com/package/async)
+
+[MDN: Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+
+[ARTICLE: The Node.js Way - Understanding Error-First Callbacks](http://fredkschott.com/post/2014/03/understanding-error-first-callbacks-in-node-js/)
+
 ### Creating route handlers
+
+[Express: reponse methods](https://expressjs.com/en/guide/routing.html#response-methods)
+
+[Express: Routing](https://expressjs.com/en/guide/routing.html#route-handlers)
+
+[http module](https://nodejs.org/api/http.html#http_http_methods)
+
+[express.Router](https://expressjs.com/en/guide/routing.html#express-router)
+
+[MDN: Express Tutorial Part 4: Routes and controllers](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes)
 
 ### Using middleware
 
+*NOTE*: The middleware can perform any operation, execute any code, make changes to the request and response object, and it can also end the request-response cycle. If it does not end the cycle then it must call next() to pass control to the next middleware function (or the request will be left hanging).
+
+[List of middleware packages maintained by Express team](https://expressjs.com/en/resources/middleware.html)
+
+[3rd Party: morgan HTTP request logger middleware](https://expressjs.com/en/resources/middleware/morgan.html)
+
+**EXAMPLE** How you can add the middleware function using both methods, and with/without a route.
+
+```javascript
+var express = require('express');
+var app = express();
+
+// An example middleware function
+var a_middleware_function = function(req, res, next) {
+  // ... perform some operations
+  next(); // Call next() so Express will call the next middleware function in the chain.
+}
+
+// Function added with use() for all routes and verbs
+app.use(a_middleware_function);
+
+// Function added with use() for a specific route
+app.use('/someroute', a_middleware_function);
+
+// A middleware function added for a specific HTTP verb and route
+app.get('/', a_middleware_function);
+
+app.listen(3000);
+```
+
 ### Serving static files
+
+[express.static middleware](https://expressjs.com/en/4x/api.html#express.static)
 
 ### Handling errors
 
@@ -85,5 +282,3 @@ node "hello.js"
 ### Rendering data (views)
 
 ### File structure
-
-
