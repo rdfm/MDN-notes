@@ -27,9 +27,8 @@ see [How to apply multiple selectors to the same rule](https://developer.mozilla
 09-CSS_colors.md
 see [How to specify colors in CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units#Colors)
 
-10-CSS_debug_in_browser.md
-see [How to debug CSS in the browser](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Debugging_CSS#Inspecting_the_DOM_and_CSS)
-
+10-Debugging_CSS.md
+see [How to debug CSS in the browser](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Debugging_CSS)
 
 # 02-CSS_and_text
 
