@@ -30,7 +30,7 @@ $ cd test-node
 
 2: CREATE FILE (hello.js):
 
-```javascript 
+```javascript
 // Load HTTP module
 var http = require("http");
 
@@ -59,7 +59,7 @@ $ node "hello.js"
 ## Web Frameworks
 
 - Other common web-development tasks are **NOT** directly supported by Node
-- Use a web framework to: 
+- Use a web framework to:
   - add specific handling for different HTTP verbs (e.g. GET, POST, DELETE, etc.)
   - separately handle requests at different URL paths ("routes")
   - serve static files
@@ -81,6 +81,7 @@ $ node "hello.js"
 ## Where did Node and Express come from?
 
 **Node**:
+
 - 2009: Initially released for Linux only.
 - 2010: NPM package manager released
 - 2012: Native Windows support
@@ -88,6 +89,7 @@ $ node "hello.js"
 - Latest release: Node 11.2.0
 
 **Express**:
+
 - 2010 (November): Initially released
 - Current version: 6.8.0
 
@@ -205,7 +207,6 @@ module.exports = {
   area: function(width) {
     return width * width;
   },
-       
   perimeter: function(width) {
     return 4 * width;
   }
@@ -273,12 +274,120 @@ app.listen(3000);
 
 ### Serving static files
 
-[express.static middleware](https://expressjs.com/en/4x/api.html#express.static)
+[Express: express.static middleware](https://expressjs.com/en/4x/api.html#express.static)
+
+- serve static files (including images, CSS, and JavaScript)
+- static() is the only middleware function that is part of Express
+
+**EXAMPLE**: Serve static files in a directory named 'public' at the same level you call node
+
+```javascript
+app.use(express.static('public'));
+```
+
+*NOTE*: Any files in the public directory are served by adding their filename (relative to the base "public" directory) to the base URL
+
+```
+http://localhost:3000/images/dog.jpg
+http://localhost:3000/css/style.css
+http://localhost:3000/js/app.js
+http://localhost:3000/about.html
+```
+
+[Express: Serving static files](https://expressjs.com/en/starter/static-files.html)
 
 ### Handling errors
 
+Errors are handled by one or more special middleware functions that have four arguments, instead of the usual three: (err, req, res, next)
+
+```javascript
+app.use(function(err, req, res, next) {
+  console.error(err.stack);
+  res.status(500).send('Something broke!');
+});
+```
+
+[Express: Error Handling](https://expressjs.com/en/guide/error-handling.html)
+
 ### Using databases
+
+- Express apps can use any database mechanism supported by Node
+- Options: PostgreSQL, MySQL, Redis, SQLite, MongoDB, etc.
+- CRUD = create, read, update, and delete
+
+INSTALL: MongoDB
+
+```
+$ npm install mongodb
+```
+
+EXAMPLE (MongoDB):
+
+```javascript
+//this works with older versions of  mongodb version ~ 2.2.33
+var MongoClient = require('mongodb').MongoClient;
+
+MongoClient.connect('mongodb://localhost:27017/animals', function(err, db) {
+  if (err) throw err;
+
+  db.collection('mammals').find().toArray(function (err, result) {
+    if (err) throw err;
+
+    console.log(result);
+  });
+});
+
+
+//for mongodb version 3.0 and up
+let MongoClient = require('mongodb').MongoClient;
+MongoClient.connect('mongodb://localhost:27017/animals', function(err, client){
+   if(err) throw err;
+   
+   let db = client.db('animals');
+   db.collection('mammals').find().toArray(function(err, result){
+     if(err) throw err;
+     console.log(result);
+     client.close();
+   });
+});
+```
+
+**ORM** = Object Relational Mapper
+
+- popular approach to access database indirectly
+- define your data as "objects" or "models"
+- and the ORM maps these through the underlying database format
+
+[Express: Database integration](https://expressjs.com/en/guide/database-integration.html)
 
 ### Rendering data (views)
 
+- Template engines (referred to as "view engines" by Express)
+- Templates are often used to create HTML
+- [Template Engines - supported by Express](https://github.com/expressjs/express/wiki#template-engines)
+- RESEARCH: Pug (formerly Jade)
+
+**EXAMPLE**:
+
+```javascript
+var express = require('express');
+var app = express();
+
+// Set directory to contain the templates ('views')
+app.set('views', path.join(__dirname, 'views'));
+
+// Set view engine to use, in this case 'some_template_engine_name'
+app.set('view engine', 'some_template_engine_name');
+```
+
+```javascript
+app.get('/', function(req, res) {
+  res.render('index', { title: 'About dogs', message: 'Dogs rock!' });
+});
+```
+
+[Express: Using template engines](https://expressjs.com/en/guide/using-template-engines.html)
+
 ### File structure
+
+[MDN: MVC (Model-View-Controller)](https://developer.mozilla.org/en-US/docs/Glossary/MVC)

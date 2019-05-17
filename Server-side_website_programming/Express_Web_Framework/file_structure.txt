@@ -7,7 +7,7 @@ see [Express/Node introduction](https://developer.mozilla.org/en-US/docs/Learn/S
 ==============================
 2-Node_Express_dev_environment.md
 
-see [Setting up a Node (Express) development environment]()
+see [Setting up a Node (Express) development environment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment)
 
 ==============================
 Express_1-Local_Library_site.md

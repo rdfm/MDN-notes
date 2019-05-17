@@ -41,7 +41,7 @@ see [What does 'loosely typed' mean?](https://developer.mozilla.org/en-US/docs/L
 
 # FOLDER: 03-Math
 1-Number_types.md
-see [What types of number do you have to deal with in web development?]()
+see [What types of number do you have to deal with in web development?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math#Types_of_numbers)
 
 2-Basic_math_JS.md
 see [How do you do basic math in JavaScript?]()
