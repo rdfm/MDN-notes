@@ -104,29 +104,40 @@ see [How do you split a string into array items, or join array items into a stri
 
 # FOLDER: 06-Debugging_JavaScript
 1-Types_of_errors.md
-see [What are the basic types of error?]()
+see [What are the basic types of error?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong#Types_of_error)
 
 2-Browser_developer_tools.md
-see [What are browser developer tools, and how do you access them?]()
+see [What are browser developer tools, and how do you access them?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools)
 
 3-Log_to_console.md
-see [How do you log a value to the JavaScript console?]()
+see [How do you log a value to the JavaScript console?](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/JavaScript#The_Console_API)
 
-4-Use breakpoints_and_other.md
-see [How do you use breakpoints, and other JavaScript debugging features?]()
+4-JS_debugger.md
+see [How do you use breakpoints, and other JavaScript debugging features?](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/JavaScript#Using_the_JavaScript_debugger)
 
 5-Common_JS_problems.md
-see [Handling common JavaScript problems]()
+see [Handling common JavaScript problems](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/JavaScript)
 
 6-Common_errors.md
-see [Other common errors]()
+see [Other common errors](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong#Other_common_errors)
 
 # FOLDER: 07-Making_decisions_code
+1-Execute_blocks.md
 see [How do you execute different blocks of code, depending on a variable's value or other condition?]()
+
+2-if_else_statements.md
 see [How do you use if ...else statements?]()
+
+3-Nest_decision_block.md
 see [How do nest one decision block inside another?]()
+
+4-AND_OR_NOT.md
 see [How do you use AND, OR, and NOT operators in JavaScript?]()
+
+5-
 see [How do you conveniently handle a large number of choices for one condition?]()
+
+6-Ternary_operator.md
 see [How do you use a ternary operator to make a quick choice between two options based on a true or false test?]()
 
 # FOLDER: 08-Looping_iteration
