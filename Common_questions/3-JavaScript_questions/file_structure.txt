@@ -44,47 +44,47 @@ see [What does 'loosely typed' mean?](https://developer.mozilla.org/en-US/docs/L
 see [What types of number do you have to deal with in web development?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math#Types_of_numbers)
 
 2-Basic_math_JS.md
-see [How do you do basic math in JavaScript?]()
+see [How do you do basic math in JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math#Arithmetic_operators)
 
 3-Operator_precedence.md
-see [What is operator precedence, and how is it handled in JavaScript?]()
+see [What is operator precedence, and how is it handled in JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math#Operator_precedence)
 
 4-Increment_decrement_values.md
-see [How do you increment and decrement values in JavaScript?]()
+see [How do you increment and decrement values in JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math#Increment_and_decrement_operators)
 
 5-Compare_values.md
-see [How do you compare values in JavaScript? (e.g. to see which one is bigger, or to see if one value is equal to another).]()
+see [How do you compare values in JavaScript? (e.g. to see which one is bigger, or to see if one value is equal to another).](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math#Comparison_operators)
 
 # FOLDER: 04-Strings
 01-Create_string.md
-see [How do you create a string in JavaScript?]()
+see [How do you create a string in JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#Creating_a_string)
 
 02-Single_or_double_quotes.md
-see [Do you have to use single quotes or double quotes?]()
+see [Do you have to use single quotes or double quotes?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#Single_quotes_vs._double_quotes)
 
 03-Escape_characters_string.md
-see [How do you escape characters in strings?]()
+see [How do you escape characters in strings?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#Escaping_characters_in_a_string)
 
 04-Join_strings.md
-see [How do you join strings together?]()
+see [How do you join strings together?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#Concatenating_strings)
 
 05-Join_strings_numbers.md
-see [Can you join strings and numbers together?]()
+see [Can you join strings and numbers together?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#Numbers_vs._strings)
 
 06-Length_string.md
-see [How do you find the length of a string?]()
+see [How do you find the length of a string?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods#Finding_the_length_of_a_string)
 
 07-Character_position_string.md
-see [How you find what character is at a certain position in a string?]()
+see [How you find what character is at a certain position in a string?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods#Retrieving_a_specific_string_character)
 
 08-Find_substring.md
-see [How do you find and extract a specific substring from a string?]()
+see [How do you find and extract a specific substring from a string?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods#Finding_a_substring_inside_a_string_and_extracting_it)
 
 09-Change_case_string.md
-see [How do you change the case of a string?]()
+see [How do you change the case of a string?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods#Changing_case)
 
 10-Replace_substring.md
-see [How do you replace one specific substring with another?]()
+see [How do you replace one specific substring with another?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods#Updating_parts_of_a_string)
 
 # FOLDER: 05-Arrays
 1-Create_array.md
