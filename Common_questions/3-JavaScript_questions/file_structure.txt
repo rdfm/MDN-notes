@@ -88,19 +88,19 @@ see [How do you replace one specific substring with another?](https://developer.
 
 # FOLDER: 05-Arrays
 1-Create_array.md
-see [How do you create an array?]()
+see [How do you create an array?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays#Creating_an_array)
 
 2-Items_in_array.md
-see [How do you access and modify the items in an array? (this includes multidimensional arrays)]()
+see [How do you access and modify the items in an array? (this includes multidimensional arrays)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays#Accessing_and_modifying_array_items)
 
 3-Length_array.md
-see [How do you find the length of an array?]()
+see [How do you find the length of an array?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays#Finding_the_length_of_an_array)
 
 4-Add_remove_items_array.md
-see [How you add and remove array items?]()
+see [How you add and remove array items?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays#Adding_and_removing_array_items)
 
 5-Split_string.md
-see [How do you split a string into array items, or join array items into a string?]()
+see [How do you split a string into array items, or join array items into a string?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays#Converting_between_strings_and_arrays)
 
 # FOLDER: 06-Debugging_JavaScript
 1-Types_of_errors.md
@@ -116,10 +116,10 @@ see [How do you log a value to the JavaScript console?]()
 see [How do you use breakpoints, and other JavaScript debugging features?]()
 
 5-Common_JS_problems.md
-see [Handling common JavaScript problems] 
+see [Handling common JavaScript problems]()
 
 6-Common_errors.md
-see [Other common errors] 
+see [Other common errors]()
 
 # FOLDER: 07-Making_decisions_code
 see [How do you execute different blocks of code, depending on a variable's value or other condition?]()
@@ -151,8 +151,13 @@ see [What is function scope?]()
 see [What are return values, and how do you use them?]()
 
 # FOLDER: 10-Objects
+1-Create_object.md
 see [How do you create an object?]()
+
+2-Dot_notation.md
 see [What is dot notation?]()
+
+3-Bracket_notation.md
 see [What is bracket notation?]()
 see [How do you get and set the methods and properties of an object?]()
 see [What is this, in the context of an object?]()
