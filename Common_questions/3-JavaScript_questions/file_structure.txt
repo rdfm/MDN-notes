@@ -122,40 +122,44 @@ see [Handling common JavaScript problems](https://developer.mozilla.org/en-US/do
 see [Other common errors](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong#Other_common_errors)
 
 # FOLDER: 07-Making_decisions_code
-1-Execute_blocks.md
-see [How do you execute different blocks of code, depending on a variable's value or other condition?]()
+1-Conditionals.md
+see [How do you execute different blocks of code, depending on a variable's value or other condition?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
 
 2-if_else_statements.md
-see [How do you use if ...else statements?]()
+see [How do you use if ...else statements?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#if_..._else_statements)
 
-3-Nest_decision_block.md
-see [How do nest one decision block inside another?]()
+3-Nesting_if_else.md
+see [How do nest one decision block inside another?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#Nesting_if_..._else)
 
 4-AND_OR_NOT.md
-see [How do you use AND, OR, and NOT operators in JavaScript?]()
+see [How do you use AND, OR, and NOT operators in JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#Logical_operators_AND_OR_and_NOT)
 
 5-One_condition_multiple_choices.md
-see [How do you conveniently handle a large number of choices for one condition?]()
+see [How do you conveniently handle a large number of choices for one condition?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#switch_statements)
 
 6-Ternary_operator.md
-see [How do you use a ternary operator to make a quick choice between two options based on a true or false test?]()
+see [How do you use a ternary operator to make a quick choice between two options based on a true or false test?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#Ternary_operator)
 
 # FOLDER: 08-Looping_iteration
-1-Loop.md
-see [How do you run the same bit of code over and over again?]()
+1-Looping_code.md
+see [How do you run the same bit of code over and over again?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code)
 
-2-Exit_loop.md
-see [How do you exit a loop before the end if a certain condition is met?]()
+2-Exiting_loops.md
+see [How do you exit a loop before the end if a certain condition is met?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#Exiting_loops_with_break)
 
 3-Skip_next_iteration.md
-see [How do you skip to the next iteration of a loop if a certain condition is met?]()
+see [How do you skip to the next iteration of a loop if a certain condition is met?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#Skipping_iterations_with_continue)
 
-4-while_and_do_loops.md
-see [How do you use while and do ... while loops?]()
+4-while_and_do_while.md
+see [How do you use while and do ... while loops?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#while_and_do_..._while)
 
 (No link): How to iterate over the elements in an array
+https://love2dev.com/blog/javascript-for-loop-foreach/
+
 (No link): How to iterate over the elements in a multidimensional array
+
 (No link): How to iterate over the members in an object
+
 (No link): How to iterate over the members of an object nested inside an array
 
 # FOLDER: 09-Functions
