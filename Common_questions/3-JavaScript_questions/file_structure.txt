@@ -134,7 +134,7 @@ see [How do nest one decision block inside another?](https://developer.mozilla.o
 4-AND_OR_NOT.md
 see [How do you use AND, OR, and NOT operators in JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#Logical_operators_AND_OR_and_NOT)
 
-5-One_condition_multiple_choices.md
+5-switch_statements.md
 see [How do you conveniently handle a large number of choices for one condition?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#switch_statements)
 
 6-Ternary_operator.md
