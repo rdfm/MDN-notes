@@ -33,16 +33,16 @@ see [How to debug CSS in the browser](https://developer.mozilla.org/en-US/docs/L
 # 02-CSS_and_text
 
 1-Style_text.md
-see [How to style text]()
+see [How to style text](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals)
 
-2-Customize_list.md
-see [How to customize a list of elements]()
+2-Style_lists.md
+see [How to customize a list of elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists)
 
 3-Style_links.md
-see [How to style links]()
+see [How to style links](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links)
 
 4-Shadows_to_text.md
-see [How to add shadows to text]()
+see [How to add shadows to text](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals#Text_drop_shadows)
 
 
 # 03-Boxes_and_layouts

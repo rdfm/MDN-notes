@@ -30,3 +30,56 @@ loop(food = 0; foodNeeded = 10) {
   }
 }
 ```
+
+**EXAMPLE**:
+
+```javascript
+for (let i = 0; i < 100; i++) {
+  ctx.beginPath();
+  ctx.fillStyle = 'rgba(255,0,0,0.5)';
+  ctx.arc(random(WIDTH), random(HEIGHT), random(50), 0, 2 * Math.PI);
+  ctx.fill();
+}
+```
+
+## The standard for loop
+
+*Pseudocode*:
+
+```vim
+for (initializer; exit-condition; final-expression) {
+  // code to run
+}
+```
+
+- **initializer**
+  - usually a variable set to a number
+  - which is incremented to count the number of times the loop has run
+  - aka **counter variable**
+- **exit-condition**
+  - defines when the loop should stop looping
+  - generally an expression featuring a comparison operator
+- **final-expression**
+  - always evaluated (or run) each time the loop has gone through a full iteration.
+  - usually serves to increment (or in some cases decrement) the counter variable, to bring it closer to the exit condition value
+
+**EXAMPLE**:
+
+```javacript
+const cats = ['Bill', 'Jeff', 'Pete', 'Biggles', 'Jasmin'];
+let info = 'My cats are called ';
+const para = document.querySelector('p');
+
+for (let i = 0; i < cats.length; i++) {
+  info += cats[i] + ', ';
+}
+
+para.textContent = info;
+```
+
+[EXAMPLE (CODE)](https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/loops/basic-for-improved.html)
+
+[LIVE VERSION](https://mdn.github.io/learning-area/javascript/building-blocks/loops/basic-for-improved.html)
+
+
+

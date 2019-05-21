@@ -153,14 +153,26 @@ see [How do you skip to the next iteration of a loop if a certain condition is m
 4-while_and_do_while.md
 see [How do you use while and do ... while loops?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#while_and_do_..._while)
 
+5-Iterate_array.md
 (No link): How to iterate over the elements in an array
-https://love2dev.com/blog/javascript-for-loop-foreach/
+https://stackoverflow.com/questions/3010840/loop-through-an-array-in-javascript
+https://gomakethings.com/es6-foreach-loops-with-vanilla-javascript/
 
+6-Iterate_multidimensional_array.md
 (No link): How to iterate over the elements in a multidimensional array
+https://www.dyn-web.com/javascript/arrays/multidimensional.php
 
+7-Iterate_object.md
 (No link): How to iterate over the members in an object
+https://zellwk.com/blog/looping-through-js-objects/
+Before ES6: [MDN: for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
+https://gomakethings.com/the-for...in-loop-with-vanilla-javascript/
 
+8-Iterate_array_of_objects.md
 (No link): How to iterate over the members of an object nested inside an array
+https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays/
+https://gomakethings.com/the-es6-way-to-loop-through-objects-with-vanilla-javascript/
+
 
 # FOLDER: 09-Functions
 1-Find_functions_browser.md
