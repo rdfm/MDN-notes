@@ -33,9 +33,9 @@ while (i < cats.length) {
 }
 ```
 
-[EXAMPLE (CODE)](https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/loops/while.html)
+**[EXAMPLE (CODE)](https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/loops/while.html)**
 
-[LIVE VERSION](https://mdn.github.io/learning-area/javascript/building-blocks/loops/while.html)
+**[LIVE VERSION](https://mdn.github.io/learning-area/javascript/building-blocks/loops/while.html)**
 
 ## do ... while loop
 
@@ -68,6 +68,6 @@ do {
 } while (i < cats.length);
 ```
 
-[EXAMPLE (CODE)](https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/loops/do-while.html)
+**[EXAMPLE (CODE)](https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/loops/do-while.html)**
 
-[LIVE VERSION](https://mdn.github.io/learning-area/javascript/building-blocks/loops/do-while.html)
+**[LIVE VERSION](https://mdn.github.io/learning-area/javascript/building-blocks/loops/do-while.html)**

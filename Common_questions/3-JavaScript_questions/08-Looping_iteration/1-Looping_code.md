@@ -77,9 +77,9 @@ for (let i = 0; i < cats.length; i++) {
 para.textContent = info;
 ```
 
-[EXAMPLE (CODE)](https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/loops/basic-for-improved.html)
+**[EXAMPLE (CODE)](https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/loops/basic-for-improved.html)**
 
-[LIVE VERSION](https://mdn.github.io/learning-area/javascript/building-blocks/loops/basic-for-improved.html)
+**[LIVE VERSION](https://mdn.github.io/learning-area/javascript/building-blocks/loops/basic-for-improved.html)**
 
 
 

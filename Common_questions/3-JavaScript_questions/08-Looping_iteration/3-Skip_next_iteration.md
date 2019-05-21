@@ -31,6 +31,6 @@ for (let i = 1; i <= num; i++) {
 }
 ```
 
-[EXAMPLE (CODE)](https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/loops/integer-squares.html)
+**[EXAMPLE (CODE)](https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/loops/integer-squares.html)**
 
-[LIVE VERSION](https://mdn.github.io/learning-area/javascript/building-blocks/loops/integer-squares.html)
+**[LIVE VERSION](https://mdn.github.io/learning-area/javascript/building-blocks/loops/integer-squares.html)**

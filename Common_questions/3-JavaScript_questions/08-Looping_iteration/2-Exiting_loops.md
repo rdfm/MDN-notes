@@ -40,6 +40,6 @@ btn.addEventListener('click', function() {
 });
 ```
 
-[EXAMPLE (CODE)](https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/loops/contact-search.html)
+**[EXAMPLE (CODE)](https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/loops/contact-search.html)**
 
-[LIVE VERSION](https://mdn.github.io/learning-area/javascript/building-blocks/loops/contact-search.html)
+**[LIVE VERSION](https://mdn.github.io/learning-area/javascript/building-blocks/loops/contact-search.html)**
