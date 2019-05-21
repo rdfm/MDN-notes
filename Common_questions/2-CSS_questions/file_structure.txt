@@ -35,7 +35,7 @@ see [How to debug CSS in the browser](https://developer.mozilla.org/en-US/docs/L
 1-Style_text.md
 see [How to style text]()
 
-2-Customise_list.md
+2-Customize_list.md
 see [How to customize a list of elements]()
 
 3-Style_links.md
