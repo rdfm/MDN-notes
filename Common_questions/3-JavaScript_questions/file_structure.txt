@@ -201,29 +201,28 @@ see [What are return values, and how do you use them?](https://developer.mozilla
 
 # FOLDER: 10-Objects
 1-Create_object.md
-see [How do you create an object?]()
+see [How do you create an object?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#Object_basics)
 
 2-Dot_notation.md
-see [What is dot notation?]()
+see [What is dot notation?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#Dot_notation)
 
 3-Bracket_notation.md
-see [What is bracket notation?]()
+see [What is bracket notation?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#Bracket_notation)
 
 4-Methods_and_properties.md
-see [How do you get and set the methods and properties of an object?]()
+see [How do you get and set the methods and properties of an object?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#Setting_object_members)
 
 5-this.md
-see [What is this, in the context of an object?]()
+see [What is this, in the context of an object?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#What_is_this)
 
 6-Object-oriented_programming.md
-see [What is object-oriented programming?]()
+see [What is object-oriented programming?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS#Object-oriented_programming_from_10000_meters)
 
 7-Constructores_and_instances.md
-see [What are constructors and instances, and how do you create them?]()
+see [What are constructors and instances, and how do you create them?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS#Constructors_and_object_instances)
 
 8-Create_objects_differently.md
-see [What different ways are there to create objects in JavaScript?]()
-
+see [What different ways are there to create objects in JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS#Other_ways_to_create_object_instances)
 
 # FOLDER: 11-JSON
 1-Structure_JSON.md
