@@ -175,29 +175,29 @@ https://gomakethings.com/the-es6-way-to-loop-through-objects-with-vanilla-javasc
 
 
 # FOLDER: 09-Functions
-1-Find_functions_browser.md
-see [How do you find functions in the browser?]()
+1-Built-in_browser_functions.md
+see [How do you find functions in the browser?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#Built-in_browser_functions)
 
 2-Function_vs_method.md
-see [What is the difference between a function and a method?]()
+see [What is the difference between a function and a method?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#Functions_versus_methods)
 
 3-Create_functions.md
-see [How do you create your own functions?]()
+see [How do you create your own functions?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Build_your_own_function)
 
-4-Run_function.md
-see [How do you run (call, or invoke) a function?]()
+4-Invoking_functions.md
+see [How do you run (call, or invoke) a function?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#Invoking_functions)
 
 5-Anonymous_function.md
-see [What is an anonymous function?]()
+see [What is an anonymous function?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#Anonymous_functions)
 
-6-Parameters_arguments.md
-see [How do you specify parameters (or arguments) when invoking a function?]()
+6-Function_parameters.md
+see [How do you specify parameters (or arguments) when invoking a function?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#Function_parameters)
 
 7-Function_scope.md
-see [What is function scope?]()
+see [What is function scope?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#Function_scope_and_conflicts)
 
 8-Return_values.md
-see [What are return values, and how do you use them?]()
+see [What are return values, and how do you use them?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values)
 
 # FOLDER: 10-Objects
 1-Create_object.md
@@ -224,8 +224,8 @@ see [What are constructors and instances, and how do you create them?]()
 8-Create_objects_differently.md
 see [What different ways are there to create objects in JavaScript?]()
 
-# FOLDER: 11-JSON
 
+# FOLDER: 11-JSON
 1-Structure_JSON.md
 see [How do you structure JSON data, and read it from JavaScript?]()
 
@@ -234,6 +234,7 @@ see [How can you load a JSON file into a page?]()
 
 3-Convert_JSON.md
 see [How do you convert a JSON object to a text string, and back again?]()
+
 
 # FOLDER: 12-Events
 1-Event_handlers.md
@@ -260,6 +261,7 @@ see [How do events fire on nested elements? (event propagation, also related —
 8-Event_delegation.md
 see [What is event delegation, and how does it work?]()
 
+
 # FOLDER: 13-Object-oriented_JavaScript
 1-Object_prototypes.md
 see [What are object prototypes?]()
@@ -275,6 +277,7 @@ see [How do you create a new constructor that inherits its members from a parent
 
 5-Use_inheritance.md
 see [When should you use inheritance in JavaScript?]()
+
 
 # FOLDER: 14-Web_APIs
 1-Manipulate_DOM.md
