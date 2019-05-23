@@ -218,7 +218,7 @@ see [What is this, in the context of an object?](https://developer.mozilla.org/e
 6-Object-oriented_programming.md
 see [What is object-oriented programming?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS#Object-oriented_programming_from_10000_meters)
 
-7-Constructores_and_instances.md
+7-Constructors_and_instances.md
 see [What are constructors and instances, and how do you create them?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS#Constructors_and_object_instances)
 
 8-Create_objects_differently.md
