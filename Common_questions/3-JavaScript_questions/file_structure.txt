@@ -236,47 +236,46 @@ see [How do you convert a JSON object to a text string, and back again?](https:/
 
 # FOLDER: 12-Events
 1-Event_handlers.md
-see [What are event handlers and how do you use them?]()
+see [What are event handlers and how do you use them?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_handler_properties)
 
 2-Inline_event_handlers.md
-see [What are inline event handlers?]()
+see [What are inline event handlers?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Inline_event_handlers_%E2%80%94_don%27t_use_these)
 
-3-addEventListener.md
-see [What does the addEventListener() function do, and how do you use it?]()
+3-addEventListener_removeEventListener.md
+see [What does the addEventListener() function do, and how do you use it?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#addEventListener()_and_removeEventListener())
 
 4-Add_event_code.md
-see [Which mechanism should I use to add event code to my web pages?]()
+see [Which mechanism should I use to add event code to my web pages?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#What_mechanism_should_I_use)
 
 5-Event_objects.md
-see [What are event objects, and how do you use them?]()
+see [What are event objects, and how do you use them?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_objects)
 
 6-Prevent_default.md
-see [How do you prevent default event behaviour?]()
+see [How do you prevent default event behaviour?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Preventing_default_behavior)
 
-7-Event_propagation_bubbling_capturing.md
-see [How do events fire on nested elements? (event propagation, also related — event bubbling and capturing)]()
+7-Event_bubbling_capturing.md
+see [How do events fire on nested elements? (event propagation, also related — event bubbling and capturing)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_bubbling_and_capture)
 
 8-Event_delegation.md
-see [What is event delegation, and how does it work?]()
-
+see [What is event delegation, and how does it work?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_delegation)
 
 # FOLDER: 13-Object-oriented_JavaScript
 1-Object_prototypes.md
-see [What are object prototypes?]()
+see [What are object prototypes?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
 
 2-Constructor_property.md
-see [What is the constructor property, and how can you use it?]()
+see [What is the constructor property, and how can you use it?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes#The_constructor_property)
 
 3-Constructor_methods.md
-see [How do you add methods to the constructor?]()
+see [How do you add methods to the constructor?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes#Modifying_prototypes)
 
 4-Inheritance_with_constructors.md
-see [How do you create a new constructor that inherits its members from a parent constructor?]()
+see [How do you create a new constructor that inherits its members from a parent constructor?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance)
 
 5-Use_inheritance.md
-see [When should you use inheritance in JavaScript?]()
+see [When should you use inheritance in JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance#Object_member_summary)
 
 
 # FOLDER: 14-Web_APIs
 1-Manipulate_DOM.md
-see [How do you manipulate the DOM (e.g. adding or removing elements) using JavaScript?]()
+see [How do you manipulate the DOM (e.g. adding or removing elements) using JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents#Active_learning_Basic_DOM_manipulation)
