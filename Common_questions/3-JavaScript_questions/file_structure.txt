@@ -225,15 +225,14 @@ see [What are constructors and instances, and how do you create them?](https://d
 see [What different ways are there to create objects in JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS#Other_ways_to_create_object_instances)
 
 # FOLDER: 11-JSON
-1-Structure_JSON.md
-see [How do you structure JSON data, and read it from JavaScript?]()
+1-JSON_structure.md
+see [How do you structure JSON data, and read it from JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON#JSON_structure)
 
 2-Load_JSON.md
-see [How can you load a JSON file into a page?]()
+see [How can you load a JSON file into a page?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON#Loading_our_JSON)
 
 3-Convert_JSON.md
-see [How do you convert a JSON object to a text string, and back again?]()
-
+see [How do you convert a JSON object to a text string, and back again?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON#Converting_between_objects_and_text)
 
 # FOLDER: 12-Events
 1-Event_handlers.md
