@@ -18,7 +18,7 @@ TEST (In browser console):
 person1.farewell();
 ```
 
-**NOTE**:
+*NOTE* (One approach):
 
 1. Define the constructor
 2. Create an instance object from the constructor
@@ -38,7 +38,7 @@ Person.prototype.farewell = function() {
 };
 ```
 
-**NOTE**: common pattern for more object definitions is to define the properties inside the constructor, and the methods on the prototype
+**NOTE** (Better approach): common pattern for more object definitions is to define the properties inside the constructor, and the methods on the prototype
 
 ```javascript
 // Constructor with property definitions
