@@ -48,37 +48,35 @@ see [How to add shadows to text](https://developer.mozilla.org/en-US/docs/Learn/
 # 03-Boxes_and_layouts
 
 01-Size_CSS_boxes.md
-see [How to size CSS boxes]()
+see [How to size CSS boxes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model#Box_properties)
 
 02-Control_overflowing_content.md
-see [How to control overflowing content]()
+see [How to control overflowing content](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model#Overflow)
 
-03-Control_CSS_box_background.md
-see [How to control the part of a CSS box that the background is drawn under]()
+03-background-clip.md
+see [How to use background-clip to control how much of the box your background image covers.](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model#Background_clip)
 
 04-inline_block_inline-block.md
-see [How do I define inline, block, and inline-block?]()
+see [How do I define inline, block, and inline-block?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model#Types_of_CSS_boxes)
 
 05-Style_CSS_boxes.md
-see [How to create fancy boxes (also see the Styling boxes module, generally).]()
+see [How to create fancy boxes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/create_fancy_boxes)
+also see [Styling boxes module](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes)
 
-06-background-clip.md
-see [How to use background-clip to control how much of the box your background image covers.]()
+06-box-sizing.md
+see [How to change the box model completely using box-sizing](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Box_model_recap#Changing_the_box_model_completely)
 
-07-box-sizing.md
-see [How to change the box model completely using box-sizing]()
+07-Style_backgrounds.md
+see [How to control backgrounds](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Backgrounds)
 
-08-Control_backgrounds.md
-see [How to control backgrounds]()
+08-Style_borders.md
+see [How to control borders](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Borders)
 
-09-Control_borders.md
-see [How to control borders]()
+09-Style_HTML_table.md
+see [How to style an HTML table](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Styling_tables)
 
-10-Style_HTML_table.md
-see [How to style an HTML table]()
-
-11-Add_shadows_to_boxes.md
-see [How to add shadows to boxes]()
+10-Add_shadows_to_boxes.md
+see [How to add shadows to boxes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Advanced_box_effects#Box_shadows)
 
 
 # 04-Advanced_techniques
