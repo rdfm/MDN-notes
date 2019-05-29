@@ -2,7 +2,7 @@
 
 (MDN - No link): How to iterate over the elements in an array
 
-see [stackoverflow: Loop through an array in JavaScript](https://stackoverflow.com/questions/3010840/loop-through-an-array-in-javascript)
+see (external resource): [stackoverflow: Loop through an array in JavaScript](https://stackoverflow.com/questions/3010840/loop-through-an-array-in-javascript)
 
 ## Sequential for loop
 
@@ -55,7 +55,7 @@ array.filter(item => item.condition < 10)
      .forEach(item => console.log(item))
 ```
 
-**NOTE**: If iterating an array to build another array from it, use **.map()**
+**NOTE**:
 
 ## ES6: for-of statement
 

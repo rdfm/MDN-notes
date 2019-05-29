@@ -155,24 +155,19 @@ see [How do you use while and do ... while loops?](https://developer.mozilla.org
 
 5-Iterate_array.md
 (No link): How to iterate over the elements in an array
-https://stackoverflow.com/questions/3010840/loop-through-an-array-in-javascript
-https://gomakethings.com/es6-foreach-loops-with-vanilla-javascript/
+see (external resource): [stackoverflow: Loop through an array in JavaScript](https://stackoverflow.com/questions/3010840/loop-through-an-array-in-javascript)
 
 6-Iterate_multidimensional_array.md
 (No link): How to iterate over the elements in a multidimensional array
-https://www.dyn-web.com/javascript/arrays/multidimensional.php
+see (external resource): [Dynamic Web Coding - JavaScript Multidimenstional Arrays](https://www.dyn-web.com/javascript/arrays/multidimensional.php)
 
 7-Iterate_object.md
 (No link): How to iterate over the members in an object
-https://zellwk.com/blog/looping-through-js-objects/
-Before ES6: [MDN: for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
-https://gomakethings.com/the-for...in-loop-with-vanilla-javascript/
+see (external resource): [zellwk - Looping through objects in JavaScript](https://zellwk.com/blog/looping-through-js-objects/)
 
 8-Iterate_array_of_objects.md
 (No link): How to iterate over the members of an object nested inside an array
-https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays/
-https://gomakethings.com/the-es6-way-to-loop-through-objects-with-vanilla-javascript/
-
+see (external source): [Reactgo -How to loop through array of objects in JavaScript(es6)](https://reactgo.com/javascript-loop-through-array-of-objects/)
 
 # FOLDER: 09-Functions
 1-Built-in_browser_functions.md
