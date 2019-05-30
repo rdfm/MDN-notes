@@ -81,27 +81,26 @@ see [How to add shadows to boxes](https://developer.mozilla.org/en-US/docs/Learn
 
 # 04-Advanced_techniques
 
-1-Specificity_CSS_selector.md
-see [How to calculate specificity of a CSS selector]()
+1-CSS_Specificity.md
+see [How to calculate specificity of a CSS selector](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_and_inheritance#Specificity)
 
-2-Control_inheritance.md
-see [How to control inheritance in CSS]()
+2-Controlling_inheritance.md
+see [How to control inheritance in CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_and_inheritance#Controlling_inheritance)
 
 3-CSS_filters.md
-see [How to use filters in CSS]()
+see [How to use filters in CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Advanced_box_effects#Filters)
 
 4-CSS_blend_modes.md
-see [How to use blend modes in CSS]()
+see [How to use blend modes in CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Advanced_box_effects#Blend_modes)
 
-5-CSS_flexible_boxes.md
-see [Using CSS flexible boxes]()
+5-CSS_flexbox.md
+see [Using CSS flexible boxes](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
 
-6-Multi-column_layouts.md
-see [Using CSS multi-column layouts]()
+6-CSS_Multi-column_layouts.md
+see [Using CSS multi-column layouts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Columns/Using_multi-column_layouts)
 
 7-CSS_generated_content.md
-see [Using CSS generated content]()
-
+see [Using CSS generated content](https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/Generated_content)
 
 CSS_FAQ.md
-# see [CSS Faq]()
+# see [CSS Faq](https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/CSS_FAQ)
