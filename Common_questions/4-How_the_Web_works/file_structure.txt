@@ -5,11 +5,11 @@ see [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn
 > The Internet is the backbone of the Web, the technical infrastructure that makes the Web possible. At its most basic, the Internet is a large network of computers which communicate all together. This article discusses how it works, at a basic level.
 
 2-Web_page-site-server.md
-see [What is the difference between webpage, website, web server, and search engine?]()
+see [What is the difference between webpage, website, web server, and search engine?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)
 > In this article we describe various web-related concepts: webpages, websites, web servers, and search engines. These terms are often confused by newcomers to the Web, or are incorrectly used. Let's learn what they each mean!
 
 3-URL.md
-see [What is a URL?]()
+see [What is a URL?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL)
 > With Hypertext and HTTP, URL is one of the key concepts of the Web. It is the mechanism used by browsers to retrieve any published resource on the web.
 
 4-Domain_name.md
