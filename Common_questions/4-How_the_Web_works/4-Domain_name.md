@@ -82,7 +82,7 @@ IP Address (128 bits for  IPv6):
 #### DNs refreshing
 
 - DNS databases are stored on every DNS server worldwide
-- all these servers refer to a few special servers called: 
+- all these servers refer to a few special servers called:
   - “authoritative name servers” or
   - “top-level DNS servers”
 - whenever registrar creates or updates any information for a domain
