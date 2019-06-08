@@ -13,13 +13,13 @@ see [What is a URL?](https://developer.mozilla.org/en-US/docs/Learn/Common_quest
 > With Hypertext and HTTP, URL is one of the key concepts of the Web. It is the mechanism used by browsers to retrieve any published resource on the web.
 
 4-Domain_name.md
-see [What is a domain name?]()
+see [What is a domain name?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name)
 > Domain names are a key part of the Internet infrastructure. They provide a human-readable address for any web server available on the Internet.
 
 5-Web_server.md
-see [What is a web server?]()
+see [What is a web server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
 > The term "Web server" can refer to the hardware or software that serves web sites to clients across the Web — or both of them working together. In this article we go over how web servers work, and why they're important.
 
 6-Hyperlinks.md
-see [What are hyperlinks?]()
+see [What are hyperlinks?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_hyperlinks)
 > In this article, we'll go over what hyperlinks are and why they matter.
