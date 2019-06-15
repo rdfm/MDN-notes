@@ -5,17 +5,17 @@ see [How do I start to design my website?](https://developer.mozilla.org/en-US/d
 > This article covers the all-important first step of every project: define what you want to accomplish with it.
 
 2-Common_web_layouts.md
-see [What do common web layouts contain?]()
+see [What do common web layouts contain?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Common_web_layouts)
 > When designing pages for your website, it's good to have an idea of the most common layouts. This article runs thorugh some typical web layouts, looking at the parts that make up each one.
 
 3-Accessibility.md
-see [What is accessibility?]()
+see [What is accessibility?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_accessibility)
 > This article introduces the basic concepts behind web accessibility.
 
 4-Design_for_users.md
-see [How can we design for all types of users?]()
+see [How can we design for all types of users?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Design_for_all_types_of_users)
 > This article provides basic techniques to help you design websites for any kind of user quick accessibility wins, and other such things.
 
 5-HTML_features_accessibility.md
-see [What HTML features promote accessibility?]()
+see [What HTML features promote accessibility?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/HTML_features_for_accessibility)
 > This article describes specific features of HTML that can be used to make a web page more accessible to people with different disabilities.
