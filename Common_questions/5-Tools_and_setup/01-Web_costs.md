@@ -8,13 +8,48 @@ see [How much does it cost to do something on the Web?](https://developer.mozill
 
 ### Text editors
 
+**Free**:
+
+- Atom
+- Brackets
+- Bluefish
+- TextWrangler
+- Eclipse
+- Netbeans
+- Visual Studio Code
+
 ### Image editors
+
+**Free**:
+
+- GIMP
+- Paint.NET
 
 ### Media editors
 
+**Audio (Free)**:
+
+- Audacity
+- Wavosaur
+
+**Video (Free)**:
+
+- PiTiVi
+- OpenShot (Linux)
+- iMovie (Mac)
+
 ### Publishing tools
 
+- FTP client
+- RSync
+- Git/GitHub
+- FileZilla
+- Cyberduck
+
 ## Browsers
+
+- Firefox
+- Chrome
 
 ## Web access
 
@@ -26,9 +61,22 @@ see [How much does it cost to do something on the Web?](https://developer.mozill
 
 ### Understanding bandwidth
 
-### Domain namesSection
+### Domain names
+
+- 1&1
+- Gandi
 
 ### Do-it-yourself hosting vs. “packaged” hosting
+
+- WordPress
+- Dotclear
+- spip
+
+*pre-packaged CMS's*:
+
+- Wordpress
+- Tumblr
+- Blogger
 
 ### Free hosting vs. paid hosting
 

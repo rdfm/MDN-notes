@@ -2,12 +2,10 @@
 
 01-Web_costs.md
 see [How much does it cost to do something on the Web?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_much_does_it_cost)
-
 > When you're launching a website, you may spend nothing or your costs may go through the roof. In this article we discuss how much everything costs and what you get for what you pay (or don't pay).
 
 02-Software_stack.md
 see [What software do I need to build a website?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_software_do_I_need)
-
 > In this article we explain which software components you need when you're editing, uploading, or viewing a website.
 
 03-Text_editors.md
