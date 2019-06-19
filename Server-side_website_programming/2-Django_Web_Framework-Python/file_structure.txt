@@ -1,0 +1,21 @@
+# Django web framework (Python)
+
+1-Django_intro.md
+
+see[]()
+
+2-Set_up_Django_dev_environment.md
+
+Django_1-
+
+Django_2-
+
+Django_3-
+
+Django_4-
+
+Django_5-
+
+Django_6-
+
+Django_7-
