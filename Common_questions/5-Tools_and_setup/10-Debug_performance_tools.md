@@ -1,4 +1,4 @@
-# What tools are available to debug and improve website performance?
+# Performance
 
 see [What tools are available to debug and improve website performance?](https://developer.mozilla.org/en-US/docs/Tools/Performance)
 
