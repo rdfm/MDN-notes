@@ -2,11 +2,13 @@
 
 1-Django_intro.md
 
-see[]()
+see[Django introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction)
 
 2-Set_up_Django_dev_environment.md
 
-Django_1-
+see[Setting up a Django development environment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment)
+
+Django_1-lo
 
 Django_2-
 
