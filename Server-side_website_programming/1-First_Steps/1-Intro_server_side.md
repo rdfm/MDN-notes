@@ -27,13 +27,25 @@ see[Introduction to the server side](https://developer.mozilla.org/en-US/docs/Le
 
 ### Static sites
 
+*static site*: returns the same hard-coded content from the server whenever a particular resource is requested. 
+
+**NOTE**: When a user wants to navigate to a page, the browser sends an HTTP "GET" request specifying its URL.
+
 ### Dynamic sites
 
-**"server-side programming"** (or sometimes **"back-end scripting"**)
+*dynamic site*:
+
+- site where some of the response content is generated dynamically only when needed
+- HTML pages are normally created by inserting data from a database into placeholders in HTML templates
+- can return different data for a URL based on information provided by the user or stored preferences and can perform other operations as part of returning a response (e.g. sending notifications)
+- Most of the code to support a dynamic website must run on the server.
+- Creating this code is known as **"server-side programming"** (or sometimes **"back-end scripting"**)
 
 ## Are server-side and client-side programming the same?
 
-**client-side code**: 
+**client-side code**: code running in the browser
+
+- includes selecting and styling UI components, creating layouts, navigation, form validation, etc.
 
 **web frameworks**: 
 
@@ -47,7 +59,7 @@ see[Introduction to the server side](https://developer.mozilla.org/en-US/docs/Le
 
 ### Store session/state information
 
-**sessions**:
+**sessions**: a mechanism that allows a server to store information on the current user of a site and send different responses based on that information
 
 ### Notifications and communication
 

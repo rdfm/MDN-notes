@@ -9,15 +9,17 @@ see[Client-Server Overview](https://developer.mozilla.org/en-US/docs/Learn/Serve
 *HTTP Request*:
 
 - URL
-- Method:
-  - **GET**:
-  - **POST**:
-  - **HEAD**:
-  - **PUT**:
+- Methods:
+  - **GET**: Get a specific resource (e.g. an HTML file).
+  - **POST**: Create a new resource (e.g. add a new article to a wiki, add a new contact to a database).
+  - **HEAD**: Get the metadata information about a specific resource without getting the body like GET would. You might for example use a HEAD request to find out the last time a resource was updated, and then only use the (more "expensive") GET request to download the resource if it has changed.
+  - **PUT**: Update an existing resource (or create a new one if it doesn't exist).
+  - **DELETE**: Delete the specified resource.
+  - **TRACE, OPTIONS, CONNECT, PATCH**: These verbs are for less common/advanced tasks.
 - Additional Information
-  - URL parameters
-  - POST data
-  - Client-side cookies
+  - URL parameters: Ex. for example http://mysite.com?name=Fred&age=11
+  - POST data: data for which is encoded within the request body.
+  - Client-side cookies: contain session data about the client
 
 ### GET request/response example
 
@@ -38,6 +40,25 @@ Accept-Charset: ISO-8859-1,UTF-8;q=0.7,*;q=0.7
 Accept-Language: en-US,en;q=0.8,es;q=0.6
 Cookie: sessionid=6ynxs23n521lu21b1t136rhbv7ezngie; csrftoken=zIPUJsAZv6pcgCBJSCj1zU6pQZbfMUAT; dwf_section_edit=False; dwf_sg_task_completion=False; _gat=1; _ga=GA1.2.1688886003.1471911953; ffo=true
 ```
+
+General Information:
+
+- The type of request (GET).
+- The target resource URL (/en-US/search).
+- The URL parameters (q=client%2Bserver%2Boverview&topic=apps&topic=html&topic=css&topic=js&topic=api&topic=webdev).
+- The target/host website (developer.mozilla.org).
+- The end of the first line also includes a short string identifying the specific protocol version (HTTP/1.1).
+
+Client-side cookies
+
+- cookie includes an id for managing sessions (Cookie: sessionid=6ynxs23n521lu21b1t136rhbv7ezngie; ...)
+
+Browser info and response:
+
+- My browser (User-Agent) is Mozilla Firefox (Mozilla/5.0).
+- It can accept gzip compressed information (Accept-Encoding: gzip).
+- It can accept the specified set of characters (Accept-Charset: ISO-8859-1,UTF-8;q=0.7,*;q=0.7) and languages (Accept-Language: de,en;q=0.7,en-us;q=0.3).
+- The Referer line indicates the address of the web page that contained the link to this resource (i.e. the origin of the request, https://developer.mozilla.org/en-US/).
 
 **The response**:
 
@@ -65,6 +86,17 @@ Content-Length: 41823
   <script>(function(d) { d.className = d.className.replace(/\bno-js/, ''); })(document.documentElement);</script>
   ...
 ```
+
+Header information:
+
+- The first line includes the response code 200 OK, which tells us that the request succeeded.
+- We can see that the response is text/html formatted (Content-Type).
+- We can also see that it uses the UTF-8 character set (Content-Type: text/html; charset=utf-8).
+- The head also tells us how big it is (Content-Length: 41823).
+
+Body content:
+
+- contains the actual HTML returned by the request
 
 ### POST request/response example
 
@@ -108,15 +140,10 @@ X-Cache-Info: not cacheable; request wasn't a GET or HEAD
 Content-Length: 0
 ```
 
-## Static sites
-
-## Dynamic sites
-
-### Anatomy of a dynamic requestSection
+### [Anatomy of a dynamic request](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview#Anatomy_of_a_dynamic_request)
 
 ### Doing other work
 
 ### Returning something other than HTML
 
 ## Web frameworks simplify server-side web programmingSection
-
