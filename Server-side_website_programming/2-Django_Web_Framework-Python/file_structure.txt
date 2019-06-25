@@ -8,16 +8,26 @@ see[Django introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-s
 
 see[Setting up a Django development environment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment)
 
-Django_1-lo
+Tutorial_1-The_LocalLibrary_website.md
 
-Django_2-
+Tutorial_2-create_skeleton_site.md
 
-Django_3-
+Tutorial_3-using_models.md
 
-Django_4-
+Tutorial_4-django_admin_site.md
 
-Django_5-
+Tutorial_5-home_page.md
 
-Django_6-
+Tutorial_6-generic_list_detail_views.md
 
-Django_7-
+Tutorial_7-sessions_framework.md
+
+Tutorial_8-user_authentication_permissions.md
+
+Tutorial_9-forms.md
+
+Tutorial_10-testing.md
+
+Tutorial_11-deploy_production.md
+
+Web_application_security.md
