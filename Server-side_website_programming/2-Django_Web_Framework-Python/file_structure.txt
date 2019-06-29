@@ -2,13 +2,16 @@
 
 1-Django_intro.md
 
-see[Django introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction)
+see [Django introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction)
 
 2-Set_up_Django_dev_environment.md
 
-see[Setting up a Django development environment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment)
+see [Setting up a Django development environment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment)
 
 Tutorial_1-The_LocalLibrary_website.md
+
+see [Django Tutorial: The Local Library website
+](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website)
 
 Tutorial_2-create_skeleton_site.md
 
