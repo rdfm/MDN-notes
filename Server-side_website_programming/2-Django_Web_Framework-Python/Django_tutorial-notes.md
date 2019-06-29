@@ -177,72 +177,339 @@ $ python3 manage.py runserver
 
 **On browser, go to**: http://127.0.0.1:8000/
 
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
 Tutorial_3-using_models.md
 
-see []()
+see [Django Tutorial Part 3: Using models](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Models)
+
+
+## Designing the LocalLibrary models
+- separate models for every "object" (a group of related information)
+- relationships:
+  - one to one (OneToOneField)
+  - one to many (ForeignKey)
+  - many to many (ManyToManyField)
+
+## Model primer
+
+### Model definition
+
+- Models are usually defined in an application's models.py file. 
+- They are implemented as subclasses of django.db.models.Model, and can include fields, methods and metadata. 
+- The code fragment below shows a "typical" model, named MyModelName
+
+EXAMPLE :
+
+```vim
+from django.db import models
+
+class MyModelName(models.Model):
+    """A typical class defining a model, derived from the Model class."""
+
+    # Fields
+    my_field_name = models.CharField(max_length=20, help_text='Enter field documentation')
+    ...
+
+    # Metadata
+    class Meta: 
+        ordering = ['-my_field_name']
+
+    # Methods
+    def get_absolute_url(self):
+        """Returns the url to access a particular instance of MyModelName."""
+        return reverse('model-detail-view', args=[str(self.id)])
+    
+    def __str__(self):
+        """String for representing the MyModelName object (in Admin site etc.)."""
+        return self.my_field_name
+```
+
+#### Fields
+
+EXAMPLE:
+
+```vim
+my_field_name = models.CharField(max_length=20, help_text='Enter field documentation')
+```
+
+**Common field arguments**:
+
+- help_text
+- verbose_name
+- default
+- null
+- blank
+- choices
+- primary_key
+
+[Full list of field options](https://docs.djangoproject.com/en/2.1/ref/models/fields/#field-options)
+
+**Common field types**:
+
+- CharField
+- TextField
+  - specify max_length
+- IntegerField
+- DateField and DateTimeField
+- EmailField
+- FileField and ImageField
+- AutoField
+- ForeignKey
+- ManyToManyField
+
+[Full list of field arguments](https://docs.djangoproject.com/en/2.1/ref/models/fields/#field-types)
+
+#### Metadata
+
+```vim
+class Meta:
+    ordering = ['-my_field_name']
+```
+
+```vim
+ordering = ['title', '-pubdate']
+```
+
+```vim
+verbose_name = 'BetterName'
+```
+
+#### Methods
+
+**NOTE**: Minimally, in every model you should define the standard Python class method **__str__()** to return a human-readable string for each object.
+
+```vim
+def __str__(self):
+    return self.field_name
+```
+
+```vim
+def get_absolute_url(self):
+    """Returns the url to access a particular instance of the model."""
+    return reverse('model-detail-view', args=[str(self.id)])
+```
+
+### Model management
+
+#### Creating and modifying records
+
+```vim
+# Create a new record using the model's constructor.
+record = MyModelName(my_field_name="Instance #1")
+
+# Save the object into the database.
+record.save()
+```
+
+```vim
+# Access model field values using Python attributes.
+print(record.id) # should return 1 for the first record. 
+print(record.my_field_name) # should print 'Instance #1'
+
+# Change record by modifying the fields, then calling save().
+record.my_field_name = "New Instance Name"
+record.save()
+```
+
+#### Searching for records
+
+```vim
+all_books = Book.objects.all()
+```
+
+```vim
+wild_books = Book.objects.filter(title__contains='wild')
+number_wild_books = wild_books.count()
+```
+
+[Field lookups full list](https://docs.djangoproject.com/en/2.2/ref/models/querysets/#field-lookups)
+
+```vim
+# Will match on: Fiction, Science fiction, non-fiction etc.
+books_containing_genre = Book.objects.filter(genre__name__icontains='fiction')
+```
+
+[Making queries](https://docs.djangoproject.com/en/2.2/topics/db/queries/)
+
+## Defining the LocalLibrary Models
+
+**Go to**: /locallibrary/catalog/models.py
+
+```
+from django.db import models
+
+# Create your models here.
+```
+
+### Genre model
+
+```vim
+Add to: models.py
+
+class Genre(models.Model):
+    """Model representing a book genre."""
+    name = models.CharField(max_length=200, help_text='Enter a book genre (e.g. Science Fiction)')
+    
+    def __str__(self):
+        """String for representing the Model object."""
+        return self.name
+```
+
+### Book model
+
+```vim
+Add to: models.py
+
+from django.urls import reverse # Used to generate URLs by reversing the URL patterns
+
+class Book(models.Model):
+    """Model representing a book (but not a specific copy of a book)."""
+    title = models.CharField(max_length=200)
+
+    # Foreign Key used because book can only have one author, but authors can have multiple books
+    # Author as a string rather than object because it hasn't been declared yet in the file
+    author = models.ForeignKey('Author', on_delete=models.SET_NULL, null=True)
+    
+    summary = models.TextField(max_length=1000, help_text='Enter a brief description of the book')
+    isbn = models.CharField('ISBN', max_length=13, help_text='13 Character <a href="https://www.isbn-international.org/content/what-isbn">ISBN number</a>')
+    
+    # ManyToManyField used because genre can contain many books. Books can cover many genres.
+    # Genre class has already been defined so we can specify the object above.
+    genre = models.ManyToManyField(Genre, help_text='Select a genre for this book')
+    
+    def __str__(self):
+        """String for representing the Model object."""
+        return self.title
+    
+    def get_absolute_url(self):
+        """Returns the url to access a detail record for this book."""
+        return reverse('book-detail', args=[str(self.id)])
+```
+
+### BookInstance model
+
+```vim
+Add to: models.py
+
+import uuid # Required for unique book instances
+
+class BookInstance(models.Model):
+    """Model representing a specific copy of a book (i.e. that can be borrowed from the library)."""
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, help_text='Unique ID for this particular book across whole library')
+    book = models.ForeignKey('Book', on_delete=models.SET_NULL, null=True) 
+    imprint = models.CharField(max_length=200)
+    due_back = models.DateField(null=True, blank=True)
+
+    LOAN_STATUS = (
+        ('m', 'Maintenance'),
+        ('o', 'On loan'),
+        ('a', 'Available'),
+        ('r', 'Reserved'),
+    )
+
+    status = models.CharField(
+        max_length=1,
+        choices=LOAN_STATUS,
+        blank=True,
+        default='m',
+        help_text='Book availability',
+    )
+
+    class Meta:
+        ordering = ['due_back']
+
+    def __str__(self):
+        """String for representing the Model object."""
+        return f'{self.id} ({self.book.title})'
+```
+
+#### Author model
+
+```vim 
+Add to: models.py
+
+class Author(models.Model):
+    """Model representing an author."""
+    first_name = models.CharField(max_length=100)
+    last_name = models.CharField(max_length=100)
+    date_of_birth = models.DateField(null=True, blank=True)
+    date_of_death = models.DateField('Died', null=True, blank=True)
+
+    class Meta:
+        ordering = ['last_name', 'first_name']
+
+    def get_absolute_url(self):
+        """Returns the url to access a particular author instance."""
+        return reverse('author-detail', args=[str(self.id)])
+
+    def __str__(self):
+        """String for representing the Model object."""
+        return f'{self.last_name}, {self.first_name}'
+```
+
+## Re-run the database migrations
+
+```vim
+$ python3 manage.py makemigrations
+$ python3 manage.py migrate
+```
 
 ---
 
 Tutorial_4-django_admin_site.md
 
-see []()
+see [Django Tutorial Part 4: Django admin site](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Admin_site)
 
 ---
 
 Tutorial_5-home_page.md
 
-see []()
+see [Django Tutorial Part 5: Creating our home page](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page)
 
 ---
 
 Tutorial_6-generic_list_detail_views.md
 
-see []()
+see [Django Tutorial Part 6: Generic list and detail views](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views)
 
 ---
 
 Tutorial_7-sessions_framework.md
 
-see []()
+see [Django Tutorial Part 7: Sessions framework](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Sessions)
 
 ---
 
 Tutorial_8-user_authentication_permissions.md
 
-see []()
+see [Django Tutorial Part 8: User authentication and permissions](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication)
 
 ---
 
 Tutorial_9-forms.md
 
-see []()
+see [Django Tutorial Part 9: Working with forms](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Forms)
 
 ---
 
 Tutorial_10-testing.md
 
-see []()
+see [Django Tutorial Part 10: Testing a Django web application](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Testing)
+
+## Types of testing
+
+- Unit tests
+- Regression tests
+- Integration tests
 
 ---
 
 Tutorial_11-deploy_production.md
 
+see [Django Tutorial Part 11: Deploying Django to production](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Deployment)
+
 ---
 
-Web_application_security.md
+Django_web_app_security.md
+
+see [Django web application security](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/web_application_security)
