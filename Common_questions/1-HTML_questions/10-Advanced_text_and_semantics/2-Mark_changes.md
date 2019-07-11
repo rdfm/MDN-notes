@@ -24,7 +24,7 @@ del,
 ins {
     display: block;
     text-decoration: none;
-    position: relative;
+    : relative;
 }
 
 del {
@@ -37,7 +37,7 @@ ins {
 
 del::before,
 ins::before {
-    position: absolute;
+    : absolute;
     left: .5rem;
     font-family: monospace;
 }
